@@ -1,0 +1,32 @@
+:root{
+    --primary: rgb(44, 62, 80);
+    --secondary: rgb(54, 76, 98);
+    --secondary-hover: rgb(70, 76, 98);
+
+    --positive: rgb(26, 141, 54);
+    --positive-hover  : rgb(26, 120, 54);
+
+    --negative: rgb(193, 0, 21);
+    --negative-hover: rgb(130, 0, 17);
+
+    --text-col: #fff;
+    --focused: rgb(0, 189, 126);
+    --shadow-color: #000;
+    --elevated: 0 10px 10px -10px var(--shadow-color);
+
+
+    --header-height: 50px;
+
+    --border-radius: 4px;
+
+    --xs: 6px;
+    --sm: 12px;
+    --md: 16px;
+    --lg: 48px;
+
+    .icon-prepend,.icon-append{
+        width: var(--md);
+        height: var(--md);
+    }
+
+}
