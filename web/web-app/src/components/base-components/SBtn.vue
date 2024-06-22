@@ -4,8 +4,8 @@
       <slot name="prepend" />
     </div>
 
-    <div class="btn-controll">
-      <button class="btn" :type="type" name="submit" @click="emit('click')"></button>
+    <div class="btn-controll" @click="emit('click')">
+      <button class="btn" :type="type" name="submit"></button>
       <div class="btn-label">{{ label }}</div>
     </div>
   </div>
@@ -26,7 +26,7 @@ const theme = {
 
 <style scoped>
 .container{
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-sm);
   display: flex;
   align-items: center;
   transition-duration: .3s;
@@ -39,7 +39,6 @@ const theme = {
   background: v-bind('theme.hover');
 }
 .btn-controll{
-
   display: grid;
   width: 100%;
   justify-items: center;

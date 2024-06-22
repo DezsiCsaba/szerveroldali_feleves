@@ -8,12 +8,13 @@
     z-index: 100;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 var(--md) 0 var(--md);
 }
 .s-card{
     background: var(--primary);
     box-shadow: var(--elevated);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-sm);
 }
 .s-page-container{
     width: 100%;
@@ -26,10 +27,15 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    flex-direction: column;
 }
 
 .s-form{
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    width: 500px;
 }
+
+
+

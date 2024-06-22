@@ -3,7 +3,6 @@
     <div v-if="$slots.prepend" class="prepend-icon">
       <slot name="prepend" />
     </div>
-
     <div class="field-control">
 <!--      TODO - megoldani egy normálisan kinéző labelt-->
 <!--      <div class="label">{{ label }}</div>-->
@@ -33,7 +32,7 @@ const value = ref('')
 
 <style scoped>
 .input-container{
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-sm);
   display: flex;
   align-items: center;
   padding: var(--xs);
